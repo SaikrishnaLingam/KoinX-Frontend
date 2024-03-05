@@ -17,28 +17,28 @@ const Header = () => {
                     </div>
                     <ul className="flex flex-row items-center">
                         <li className='pr-8 font-bold'>
-                            <NavLink to='https://www.koinx.com/crypto-tax-guides/india' className={({ isActive }) =>
+                            <NavLink to='https://www.koinx.com/crypto-tax-guides/india' target="_blank" rel="noopener noreferrer" className={({ isActive }) =>
                                 `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-yellow-500" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-yellow-500 lg:p-0`
                             }>
                                 <CryptoTaxes />
                             </NavLink>
                         </li>
                         <li className='pr-8 font-bold'>
-                            <NavLink to='https://www.koinx.com/crypto-tax-calculator-india' className={({ isActive }) =>
+                            <NavLink to='https://www.koinx.com/crypto-tax-calculator-india' target="_blank" rel="noopener noreferrer" className={({ isActive }) =>
                                 `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-yellow-500" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-yellow-500 lg:p-0`
                             }>
                                 <FreeTools />
                             </NavLink>
                         </li>
                         <li className='pr-8 font-bold'>
-                            <NavLink to='https://www.koinx.com/features' className={({ isActive }) =>
+                            <NavLink to='https://www.koinx.com/features' target="_blank" rel="noopener noreferrer" className={({ isActive }) =>
                                 `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-yellow-500" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-yellow-500 lg:p-0`
                             }>
                                 <ResourceCenter />
                             </NavLink>
                         </li>
                         <li className='font-bold bg-blue-600 rounded-lg flex justify-center px-6 py-2'>
-                            <NavLink to='https://app.koinx.com/get-started' className={({ isActive }) =>
+                            <NavLink to='https://app.koinx.com/get-started' target="_blank" rel="noopener noreferrer" className={({ isActive }) =>
                                 `block text-center duration-200 ${isActive ? "text-yellow-500" : "text-white"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:p-0`
                             }>
                                 <GetStarted />
