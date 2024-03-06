@@ -1,13 +1,14 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import { Outlet } from "react-router-dom";
+//import { Outlet } from "react-router-dom";
 import Tokenomics from './components/Tokenomics';
 import Team from './components/Team';
 import Sentiment from './components/Sentiment';
 import AboutBitcoin from './components/AboutBitcoin';
 import Overview from './components/Overview';
 import Trending24H from './components/Trending24H';
+import BitcoinGraph from './components/BitcoinGraph';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                 {/* <Outlet /> */}
                 <div className='flex flex-row'>
                     <div className='w-3/4'>
+                        <BitcoinGraph />
                         <Overview />
                         <Sentiment />
                         <AboutBitcoin />
