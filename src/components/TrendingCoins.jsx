@@ -44,8 +44,6 @@ const TrendingCoins = () => {
                                 <div key={coin.item.coin_id} className="slick-slide">
                                     <CoinCard coin={coin} />
                                 </div>
-                                
-                                
                             ))}
                         </Slider>
                     </div>
