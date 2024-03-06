@@ -7,6 +7,7 @@ import Team from './components/Team';
 import Sentiment from './components/Sentiment';
 import AboutBitcoin from './components/AboutBitcoin';
 import Overview from './components/Overview';
+import Trending24H from './components/Trending24H';
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
                         <Team />
                     </div>
                     <div className='w-1/4'>
-                        side stuff
+                        <Trending24H />
                     </div>
                 </div>
             </div>
