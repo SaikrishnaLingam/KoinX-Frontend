@@ -1,4 +1,5 @@
 import React from 'react'
+import BarGraph from './Minor Components/BarGraph'
 
 const Sentiment = () => {
     // const graphData = {
