@@ -9,8 +9,8 @@ import Sentiment from './components/Sentiment.jsx'
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path='/' element={<App />}>
-            <Route path='/overview' element={<Overview />}/>
-            <Route path='/sentiment' element={<Sentiment />}/>
+            {/* <Route path='/overview' element={<Overview />}/>
+            <Route path='/sentiment' element={<Sentiment />}/> */}
         </Route>
     )
 )

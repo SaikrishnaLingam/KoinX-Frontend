@@ -4,6 +4,7 @@ import Header from './components/Header'
 import { Outlet } from "react-router-dom";
 import Tokenomics from './components/Tokenomics';
 import Team from './components/Team';
+import Sentiment from './components/Sentiment';
 import AboutBitcoin from './components/AboutBitcoin';
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
         <>
             <Header />
             <div className='bg-slate-200'>
-                <Outlet />
+                {/* <Outlet /> */}
+                
+                <Sentiment />
                 <AboutBitcoin />
                 <Tokenomics />
                 <Team />
