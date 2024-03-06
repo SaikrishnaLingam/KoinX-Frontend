@@ -1,4 +1,3 @@
-import React from 'react'
 import BarGraph from './Minor Components/BarGraph'
 
 const Sentiment = () => {
@@ -14,7 +13,23 @@ const Sentiment = () => {
                     </div>
                     <div className='font-bold text-left px-5 text-gray-600 text-lg'>Analyst Estimates</div>
                     <div className='flex'>
-                        <div className='flex'>Circle</div>
+                        <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            viewBox='0 0 24 24'
+                            className='w-36 h-36 text-green-500 fill-green-800' 
+                        >
+                            <circle cx='12' cy='12' r='10' className='fill-green-100' />
+                            <text
+                                x="50%"
+                                y="50%"
+                                dominantBaseline="middle"
+                                textAnchor="middle"
+                                className='fill-green-600 font-semibold'
+                                fontSize="6"
+                            >
+                                76%
+                            </text>
+                        </svg>
                         <BarGraph />
                     </div>
                 </div>
