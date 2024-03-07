@@ -1,13 +1,3 @@
-export const overviewData = {
-    todayLow: '$38,900.00',
-    current: '$40,100.00',
-    todayHigh: '$42,100.00',
-    marketCap: '$781,234,567,890.00',
-    volume: '23,456,789,000 BTC',
-    change: '+2.5%',
-    supply: '21,000,000 BTC',
-};
-
 export const teamData = [
     {
         'id': '1',
@@ -67,3 +57,19 @@ export const dummyData = [
         'text': "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus hic vitae fugiat cum! Perferendis cupiditate maxime et, aliquam debitis quibusdam corporis esse ducimus placeat, officiis illo.Qui praesentium deserunt in quae molestias minima cumque laboriosam."
     }
 ]
+
+export const leftColData = {
+    BitcoinPrice: '$16,815.46',
+    LH24h : '$16,382.07 / $16,874.12',
+    LH7d : '$16,382.07 / $16,874.12',
+    TradingVolume: '$23,249,202,782',
+    MarketCapRank: '#1',
+}
+
+export const rightColData = {
+    MarketCap: '$323,507,290,047',
+    MarketCapDominance: '38.343%',
+    VolumeMarketCap: '0.0718',
+    AllTimeHigh: '$69,044.77 -75.6% Nov 10, 2021(about 1 year)',
+    AllTimeLow: '$67.81 24729.1% Jul 06, 2013 (over 9 years)',
+}
