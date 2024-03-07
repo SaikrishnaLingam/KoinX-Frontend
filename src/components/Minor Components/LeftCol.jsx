@@ -4,15 +4,15 @@ const LeftCol = () => {
     return (
         <div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
-                    Bitcoin Price
+                <div className='text-gray-600'>
+                    Bitcoin
                 </div>
                 <div>
                     $16815.46
                 </div>
             </div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin
                 </div>
                 <div>
@@ -20,7 +20,7 @@ const LeftCol = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin
                 </div>
                 <div>
@@ -28,7 +28,7 @@ const LeftCol = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin
                 </div>
                 <div>
@@ -36,7 +36,7 @@ const LeftCol = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin
                 </div>
                 <div>

@@ -4,7 +4,7 @@ const RightCol = () => {
     return (
         <div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin Price
                 </div>
                 <div>
@@ -12,7 +12,7 @@ const RightCol = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin
                 </div>
                 <div>
@@ -20,7 +20,7 @@ const RightCol = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin
                 </div>
                 <div>
@@ -28,7 +28,7 @@ const RightCol = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin
                 </div>
                 <div>
@@ -36,7 +36,7 @@ const RightCol = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between border-b-2'>
-                <div>
+                <div className='text-gray-600'>
                     Bitcoin
                 </div>
                 <div>

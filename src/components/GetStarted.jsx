@@ -21,7 +21,7 @@ const GetStarted = () => {
                     </p>
                 </div>
                 <div className="flex justify-center align-middle m-5 mt-5">
-                    <img src="src\assets\KoinX-removebg-preview.png" alt="Get Started" />
+                    <img src="https://i.ibb.co/7VwZxjv/Koin-X-removebg-preview.png" alt="Get Started" />
                 </div>
                 <div className="flex align-middle justify-center mb-8">
                     <button
