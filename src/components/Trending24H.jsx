@@ -32,7 +32,7 @@ const Trending24H = () => {
                     </div>
                 </div>
                 {topThree.map((coin, index) => (
-                    <div key={index} className="flex pb-1 px-4 items-center">
+                    <div key={index} className="flex px-4 items-center p-2 pb-3">
                         {coin.item.small && (
                             <img
                                 src={coin.item.small}

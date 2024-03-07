@@ -40,9 +40,9 @@ const KeyEventCarousel = () => {
 
     return (
         <div>
-            <Slider {...carouselSettings}>
+            <Slider {...carouselSettings} className='mr-2'>
                 {dummyData.map((item) => (
-                    <KeyEventCard key={item.id} {...item} slidesToShow={slidesToShow} />
+                    <KeyEventCard key={item.id} {...item} slidesToShow={slidesToShow}/>
                 ))}
             </Slider>
         </div>
