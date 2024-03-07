@@ -4,7 +4,7 @@ import TradingViewWidget from './TradingViewWidget';
 const BitcoinGraph = () => {
   return (
     <div>
-        <div className='rounded-lg'>
+        <div className='rounded-lg overflow-y-hidden'>
             <TradingViewWidget />
         </div>
     </div>
