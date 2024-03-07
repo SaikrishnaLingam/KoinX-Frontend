@@ -26,48 +26,48 @@ function App() {
                         <div className="m-5 py-5 mx-16 border-b-2 text-xl border-gray-300 ">
                             <ul className="flex flex-wrap justify-center md:justify-between">
                                 <li className="mb-2">
-                                    <Link to="overview" smooth={true} duration={500}>
+                                    <Link to="overview" smooth={true} duration={500}  className="cursor-pointer">
                                         Overview
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link to="fundamentals" smooth={true} duration={500}>
+                                    <Link to="fundamentals" smooth={true} duration={500} className="cursor-pointer">
                                         Fundamentals
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link to="news-insight" smooth={true} duration={500}>
+                                    <Link to="news-insight" smooth={true} duration={500} className="cursor-pointer">
                                         News Insight
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link to="sentiments" smooth={true} duration={500}>
+                                    <Link to="sentiments" smooth={true} duration={500} className="cursor-pointer">
                                         Sentiments
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link to="team" smooth={true} duration={500}>
+                                    <Link to="team" smooth={true} duration={500} className="cursor-pointer">
                                         Team
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link to="technicals" smooth={true} duration={500}>
+                                    <Link to="technicals" smooth={true} duration={500} className="cursor-pointer">
                                         Technicals
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link to="tokenomics" smooth={true} duration={500}>
+                                    <Link to="tokenomics" smooth={true} duration={500} className="cursor-pointer">
                                         Tokenomics
                                     </Link>
                                 </li>
                             </ul>
                         </div>
 
-                        <Overview id='overview' />
-                        <Sentiment id='sentiments' />
-                        <AboutBitcoin  id='technicals'/> {/* change id later */}
-                        <Tokenomics id='tokenomics' />
-                        <Team id='team' />
+                       <div id='overview' ><Overview /> </div> 
+                       <div id='sentiments' > <Sentiment /></div>
+                       <div id='technicals'><AboutBitcoin /></div>  {/* change id later */}
+                       <div id='tokenomics' ><Tokenomics /></div> 
+                       <div id='team'><Team  /></div>
                     </div>
                     <div className='w-full lg:w-1/3 lg:ml-8'>
                         <GetStarted />
