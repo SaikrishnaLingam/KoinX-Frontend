@@ -46,15 +46,22 @@ const Trending24H = () => {
                                 <div className="ml-2">({coin.item.symbol})</div>
                             </div>
                         </div>
-                        <div className="flex items-center bg-green-100 p-0.5 mx-2 rounded-lg text-green-700">
+                        <div className="flex flex-row items-center p-0.5 mx-2 rounded-lg ">
                             {coin.item.data.price_change_percentage_24h.usd >= 0 ? (
-                                <img src={greenArrow} alt="Upward arrow" className="w-4 h-4 mr-1" />
+                                <div className="mr-1 flex items-center text-green-700 bg-green-100 rounded-lg p-0.5">
+                                    <img src={greenArrow} alt="Upward arrow" className="w-4 h-4 mr-1" />
+                                    <div className="mr-1">
+                                        {Math.abs(coin.item.data.price_change_percentage_24h.usd).toFixed(2)}%
+                                    </div>
+                                </div>
                             ) : (
-                                <img src={redArrow} alt="Downward arrow" className="w-4 h-4 mr-1" />
+                                <div className="mr-1 flex items-center text-red-700 bg-red-100 rounded-lg p-0.5">
+                                    <img src={redArrow} alt="Downward arrow" className="w-4 h-4 mr-1" />
+                                    <div className="mr-1">
+                                        {Math.abs(coin.item.data.price_change_percentage_24h.usd).toFixed(2)}%
+                                    </div>
+                                </div>
                             )}
-                            <div className="mr-1">
-                                {Math.abs(coin.item.data.price_change_percentage_24h.usd).toFixed(2)}%
-                            </div>
                         </div>
                     </div>
                 ))}
