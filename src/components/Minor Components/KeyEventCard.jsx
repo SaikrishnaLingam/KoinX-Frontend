@@ -1,9 +1,9 @@
 // import React from 'react';
 
 const KeyEventCard = ({ bgColor, logo, heading, text }) => {
-    const cardStyle = {
-        backgroundColor: bgColor, 
-    };
+        const cardStyle = {
+            backgroundColor: bgColor, 
+        };
 
     return (
         <div className={`flex flex-row text-left items-start ml-1 p-4 border border-gray-300 rounded-xl`} style={cardStyle}>

@@ -10,7 +10,7 @@ const KeyEventCarousel = () => {
         dots: false,
         infinite: true,
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 1,
     };
     return (
         <div>
