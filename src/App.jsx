@@ -21,7 +21,6 @@ function App() {
                 <div className='flex flex-row'>
                     <div className='w-2/3'>
                         <BitcoinGraph />
-                        BitcoinGraph
                         <Overview />
                         <Sentiment />
                         <AboutBitcoin />

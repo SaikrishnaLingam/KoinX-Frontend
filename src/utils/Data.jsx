@@ -1,3 +1,13 @@
+export const overviewData = {
+    todayLow: '$38,900.00',
+    current: '$40,100.00',
+    todayHigh: '$42,100.00',
+    marketCap: '$781,234,567,890.00',
+    volume: '23,456,789,000 BTC',
+    change: '+2.5%',
+    supply: '21,000,000 BTC',
+};
+
 export const teamData = [
     {
         'id': '1',
