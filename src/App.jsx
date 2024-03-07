@@ -18,9 +18,8 @@ function App() {
         <>
             <Header />
             <div className='bg-slate-200 '>
-                {/* <Outlet /> */}
-                <div className='flex flex-row'>
-                    <div className='w-2/3'>
+                <div className='flex flex-col lg:flex-row'>
+                    <div className='w-full lg:w-2/3'>
                         <BitcoinGraph />
 
                         {/* Options */}
@@ -70,7 +69,7 @@ function App() {
                         <Tokenomics id='tokenomics' />
                         <Team id='team' />
                     </div>
-                    <div className='w-1/3 mr-8'>
+                    <div className='w-full lg:w-1/3 lg:ml-8'>
                         <GetStarted />
                         <Trending24H />
                     </div>
