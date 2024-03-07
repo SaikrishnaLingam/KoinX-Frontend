@@ -1,24 +1,14 @@
 import React from 'react'
 import { Chart } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
+import { doughnutData } from '../../utils/Data'
 
 const DoughnutChart = () => {
-    const data = {
-        labels: ["Crowdsale Investors: 80%", "Foundation: 20%"],
-        datasets: [
-            {
-                data: [80, 20],
-                backgroundColor: ["blue", "gold"],
-                borderColor: ["blue", "gold"],
-                borderWidth: 0.5,
-            },
-        ],
-    };
     return (
         <div>
             <Chart
                 type="doughnut"
-                data={data}
+                data={doughnutData}
                 options={{
                     cutout: "75%",
                     plugins: {
