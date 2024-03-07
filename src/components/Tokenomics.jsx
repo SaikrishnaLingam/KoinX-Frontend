@@ -3,7 +3,7 @@ import DoughnutChart from './Minor Components/DoughnutChart'
 
 const Tokenomics = () => {
     return (
-        <div className='flex flex-col px-10 py-10'>
+        <div className='flex flex-col px-2 md:px-10 py-10'>
             <div className='bg-white rounded-lg'>
                 <div className='font-semibold text-left px-5 py-5 text-3xl'>Tokenomics</div>
                 <div className='font-semibold text-left px-5 py-1 text-xl'>Initial Distribution</div>

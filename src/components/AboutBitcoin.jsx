@@ -3,7 +3,7 @@ import AboutBitcoinCard from './Minor Components/AboutBitcoinCard'
 
 const AboutBitcoin = () => {
     return (
-        <div className='flex flex-col px-10 py-10'>
+        <div className='flex flex-col px-2 md:px-10 py-10'>
             <div className='bg-white rounded-lg'>
 
                 <div className='font-semibold text-left px-5 pt-5 pb-2 text-3xl'>About Bitcoin</div>
@@ -22,7 +22,7 @@ const AboutBitcoin = () => {
                 <div className='px-10 text-left'>
                     {/* Already Holding Bitcoin */}
                     <div className=' font-semibold text-2xl my-3 '>Already Holding Bitcoin?</div>
-                    <div className='flex border-b-2 pb-3'>
+                    <div className='flex flex-col md:flex-row border-b-2 pb-3'>
                         <AboutBitcoinCard backgroundColor={'blue'} imageSrc={"https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/au/wp-content/uploads/2023/08/piggybank-sK-ziQvKGsk-unsplash-scaled-e1691736853555.jpg"} heading1={"Calculate your Profits"} buttonLabel={"Check now"} />
                         <AboutBitcoinCard backgroundColor={'red'} imageSrc={"https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/au/wp-content/uploads/2023/08/piggybank-sK-ziQvKGsk-unsplash-scaled-e1691736853555.jpg"} heading1={"Calculate your tax liability"} buttonLabel={"Check now"} />
                     </div>

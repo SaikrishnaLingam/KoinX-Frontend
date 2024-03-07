@@ -7,7 +7,7 @@ const Overview = () => {
 
     return (
         <div className='bg-slate-200'>
-            <div className='flex flex-col px-10 py-10'>
+            <div className='flex flex-col px-2 md:px-10 py-10'>
                 <div className='bg-white rounded-lg flex flex-col'>
                     <div className='font-semibold text-left px-5 py-5 text-3xl'>Performance</div>
                     <div className='flex flex-col gap-4'>

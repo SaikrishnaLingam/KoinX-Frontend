@@ -24,11 +24,11 @@ const AboutBitcoinCard = ({ backgroundColor, imageSrc, heading1, buttonLabel, on
 
                 {/* Right side with headings and button */}
                 <div className="w-1/2 px-4 flex flex-col justify-center">
-                    <h2 className="text-3xl mb-4 transition-opacity duration-300 ease-in-out text-white">
+                    <h2 className="text-md md:text-2xl mb-4 transition-opacity duration-300 ease-in-out text-white">
                         {heading1}
                     </h2>
                     <button
-                        className="bg-white text-black py-1 px-4 rounded-lg text-2xl hover:bg-slate-100  transition-background duration-300 ease-in-out flex items-center align-middle justify-center"
+                        className="bg-white text-black py-1 px-4 rounded-lg text-md md:text-2xl hover:bg-slate-100  transition-background duration-300 ease-in-out flex items-center align-middle justify-center"
                         onClick={onClickButton}
                     >
                         <span>{buttonLabel}</span>

@@ -26,7 +26,7 @@ function App() {
                         <div className="m-5 py-5 mx-16 border-b-2 text-xl border-gray-300 ">
                             <ul className="flex flex-wrap justify-center md:justify-between">
                                 <li className="mb-2">
-                                    <Link to="overview" smooth={true} duration={500}  className="cursor-pointer">
+                                    <Link to="overview" smooth={true} duration={500} className="cursor-pointer">
                                         Overview
                                     </Link>
                                 </li>
@@ -63,11 +63,11 @@ function App() {
                             </ul>
                         </div>
 
-                       <div id='overview' ><Overview /> </div> 
-                       <div id='sentiments' > <Sentiment /></div>
-                       <div id='technicals'><AboutBitcoin /></div>  {/* change id later */}
-                       <div id='tokenomics' ><Tokenomics /></div> 
-                       <div id='team'><Team  /></div>
+                        <div id='overview' ><Overview /> </div>
+                        <div id='sentiments' > <Sentiment /></div>
+                        <div id='technicals'><AboutBitcoin /></div>  {/* change id later */}
+                        <div id='tokenomics' ><Tokenomics /></div>
+                        <div id='team'><Team /></div>
                     </div>
                     <div className='w-full lg:w-1/3 lg:ml-8'>
                         <GetStarted />
